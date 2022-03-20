@@ -1,0 +1,51 @@
+.rightbar .rightbarWrapper .rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.rightbar .rightbarWrapper .rightbarFriendList .rightbarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rightbar
+  .rightbarWrapper
+  .rightbarFriendList
+  .rightbarFriend
+  .rightbarProfileImgContainer {
+  margin-right: 10px;
+  position: relative;
+}
+.rightbar
+  .rightbarWrapper
+  .rightbarFriendList
+  .rightbarFriend
+  .rightbarProfileImgContainer
+  .rightbarProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.rightbar
+  .rightbarWrapper
+  .rightbarFriendList
+  .rightbarFriend
+  .rightbarProfileImgContainer
+  .rightbarOnline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+.rightbar
+  .rightbarWrapper
+  .rightbarFriendList
+  .rightbarFriend
+  .rightbarUsername {
+  font-weight: 500;
+}
